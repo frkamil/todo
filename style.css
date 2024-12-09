@@ -1,0 +1,45 @@
+body {
+  background: rgb(146, 49, 65);
+}
+
+.text {
+  background-color: #ffffffc2;
+  width: 800px;
+  border-radius: 25px;
+  padding: 25px 150px 50px;
+  margin: 25px auto;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: rgb(146, 49, 65);
+  padding: 12px 15px;
+
+  display: inline-block;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(116, 33, 47);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
